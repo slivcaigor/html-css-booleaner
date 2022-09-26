@@ -52,11 +52,27 @@ table {
 	margin-top: 20px;
 }
 
-#row2 {
+td:nth-child(1) {
+	width: 25%;
+}
+
+td:nth-child(2) {
+	width: 25%;
+}
+
+td:nth-child(3) {
+	width: 50%;
+}
+
+#first-row {
 	background-color: rgb(178, 230, 242);
 }
 
-#row {
+#third-row {
+	background-color: rgb(178, 230, 242);
+}
+
+#head-row {
 	background-color: rgb(26, 170, 230);
 	font-weight: bold;
 	color: white;
