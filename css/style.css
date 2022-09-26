@@ -1,0 +1,91 @@
+/* General Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 20px;
+}
+
+/* Logo Section Styling */
+
+.header {
+	background-color: rgb(98, 156, 232);
+	background-image: url(../img/pattern.png);
+}
+
+#logo {
+	height: 100px;
+	margin-top: 70px;
+}
+
+/* Title of the page section styling */
+
+.heading h1 {
+	font-size: 70px;
+}
+
+.heading span {
+	color: rgb(48, 178, 232);
+}
+
+.heading h3 {
+	color: rgb(157, 157, 157);
+	margin-bottom: 20px;
+}
+
+.paragraph span {
+	background-color: yellow;
+}
+
+/* Bullet Points Section Styling */
+.bullet-points {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/* Table Styling */
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+#row2 {
+	background-color: rgb(178, 230, 242);
+}
+
+#row {
+	background-color: rgb(26, 170, 230);
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Footer styling */
+.footer-text {
+	color: grey;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.top-left {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	top: 8px;
+	left: 16px;
+}
+
+.footer {
+	position: relative;
+}
