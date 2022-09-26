@@ -64,11 +64,7 @@ td:nth-child(3) {
 	width: 50%;
 }
 
-#first-row {
-	background-color: rgb(178, 230, 242);
-}
-
-#third-row {
+tr:nth-child(even) {
 	background-color: rgb(178, 230, 242);
 }
 
